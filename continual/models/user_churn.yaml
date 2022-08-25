@@ -25,5 +25,7 @@ train:
     - KNN
     - NeuralNet
     - LightGBMLarge
+    - NN_TORCH
+    - NN_MXNET
 query: |
   select * from kkbox.churn.churn_model_definition
