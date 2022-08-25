@@ -15,8 +15,9 @@
 				'exclude_columns': ['next_transaction', 'most_recent_transaction', 'days_expired'],
 				'train': {
 					'metric' : 'roc_auc',
-					'excluded_model_types' : ['FastAI', 'KNN', 'NeuralNet', 'LightGBMLarge'],
+					'excluded_model_types' : ['FastAI', 'KNN', 'NeuralNet', 'LightGBMLarge','NN_TORCH','NN_MXNET'],
 					'size' : 'large',
+					'schedule' : @daily
 				},
 				},
 
