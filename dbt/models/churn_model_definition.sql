@@ -17,7 +17,7 @@
 					'metric' : 'roc_auc',
 					'excluded_model_types' : ['FastAI', 'KNN', 'NeuralNet', 'LightGBMLarge','NN_TORCH','NN_MXNET'],
 					'size' : 'large',
-					'schedule' : @daily
+					'schedule' : '@daily'
 				},
 				},
 
